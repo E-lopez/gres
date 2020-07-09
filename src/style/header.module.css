@@ -1,0 +1,19 @@
+.link {
+    color: #495159;
+    padding: 1rem;
+}
+
+.link:hover {
+    color: #fff;
+    background-color: #EE705B;
+    text-decoration: none;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+#responsive-navbar-nav {
+    padding-top: 30px;
+    background-color: #495159;
+}

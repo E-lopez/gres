@@ -1,0 +1,151 @@
+.main {
+    display: flex;
+    align-items: center;
+    background-color: #4A5159;
+
+}
+
+.main h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.main h4 {
+  color: #4A5159;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.calculator {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.9)), url(../images/section.jpg);
+    background-size: cover;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em 3em;
+}
+
+.calculatorTxt h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4A5159;
+    padding-top: 2em;
+}
+
+.calculator p {
+    text-align: center;
+    color:#495159
+}
+
+.news {
+    padding: 1rem;    
+}
+
+.news h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+}
+
+.news button {
+  border: none;
+  border-radius: 25px;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.links {
+    color: #fff;
+    padding-top: 1rem;
+    border-top: dotted 1px #fff;
+}
+
+.linksTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5em 15%;
+}
+
+
+.linksTop p, .links p {
+    font-family: monospace;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.linksBottom {
+    display: flex;
+    justify-content: center;
+}
+
+.linksImg {
+    height: 2rem;
+    margin: 0 1rem;    
+}
+
+.Image {
+    height: 3rem;
+}
+
+/*Animated Button */
+
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .btn{
+    display: block;
+    width: 10rem;
+    height: 40px;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFF;
+    border: 2px solid #FFF;
+    background-color: #EE705B;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .btn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #FFF;
+    transition: all .15s;
+  }
+  
+  .btn:hover, .btn:hover > span{
+    color: #EE705B;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover:after{
+    width: 100%;
+    color: #EE705B;
+    text-decoration: none;
+
+  }

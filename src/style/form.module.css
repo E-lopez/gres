@@ -1,0 +1,63 @@
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem
+}
+
+.head {
+    color: #415159;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+	letter-spacing: 0.5rem;
+      text-transform: uppercase;
+    text-align: center;
+}
+
+.mainForm label {
+    font-family: monospace;
+}
+
+.mainForm input {
+    border: none;
+    background-color: #B3CED2;
+    margin: 0 1em;
+}
+
+.main p {
+    font-family: monospace;
+}
+
+.tab td, .tab th{
+    width:33%;
+    text-align: center;
+}
+
+.tab Input {
+    width: 25%;
+    padding: 0
+}
+
+.submit {
+    text-align: center;
+    padding: 2rem;
+}
+
+.submit button {
+    background-color: #EE705B;
+    color:#fff;
+    font-family: monospace;
+    border: none;
+    padding: 0.5rem 5rem
+}
+
+.submit button:hover {
+    background-color: #eee;
+    color:#EE705B;
+    font-family: monospace;
+    border: none;
+    padding: 0.5rem 5rem
+}
